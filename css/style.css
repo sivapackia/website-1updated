@@ -105,6 +105,43 @@ body ul{
 	width:50px;	
 }
 
+input:focus{
+	outline:none;
+}
+
+.offer-1{
+	display:flex;
+	flex:0 0 auto;
+	justify-content:center;
+	align-items:center;
+	background-color:#ff000029;
+	height:50px!important;
+	text-align:center;
+	line-height:50px!important;
+	width:50px !important;
+	border-radius:50% !important;
+}
+
+.heart-bar{
+	display:flex;
+	flex:0 0 auto;
+	justify-content:center;
+	align-items:center;
+	background-color:gray;
+	height:35px!important;
+	text-align:center;
+	line-height:35px!important;
+	width:35px !important;
+	font-size:20px;
+	border-radius:50% !important;
+}
+.accordion-button:focus {
+    box-shadow: 0 0 10px white !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important; 
+}
+
 
 
 
